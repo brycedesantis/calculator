@@ -1,0 +1,30 @@
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.button-holder {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: 1px solid black;
+}
+
+.display .equation {
+    margin-bottom: -15px;
+}
+
+.btn {
+    /* width: 115px;
+    margin: 5px;
+    border: none; */
+}

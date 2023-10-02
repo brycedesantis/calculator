@@ -32,3 +32,4 @@ function operate(first, op, second) {
 }
 
 console.log(operate(5, '*', 6))
+
